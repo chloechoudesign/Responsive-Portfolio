@@ -132,16 +132,16 @@ textarea{
   }
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color: #ddd;
+  color: #ccc;
 }
 ::-moz-placeholder { /* Firefox 19+ */
-  color: pink;
+  color: #ccc;
 }
 :-ms-input-placeholder { /* IE 10+ */
-  color: pink;
+  color: #ccc;
 }
 :-moz-placeholder { /* Firefox 18- */
-  color: pink;
+  color: #ccc;
 }
 
 input[type=submit] {
@@ -176,7 +176,7 @@ input[type=submit] {
 
 .project:hover{
   	color: #fff;
-	opacity: 0.4;
+	 opacity: 0.4;
   }
 
 .project-img{
@@ -244,6 +244,7 @@ aside hr{
 #linkedin-icon{
 	position: relative;
 	top: -6px;
+    left: 2px;
 }
 
 #linkedin-icon:hover{
@@ -280,5 +281,198 @@ footer span{
   display: block;
   clear: both;
 }
+
+
+/*media query starts here*/
+
+@media screen and (max-width: 980px) {
+
+    .header-wrapper{
+        max-width: 710px;
+    }
+
+    .content-wrapper{
+        max-width: 710px;
+    }
+
+    section{
+        max-width: 407px;
+    }
+
+    .profile-img{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    aside{
+        max-width: 263px
+    }
+
+    aside h2{
+        font-size: 22px;
+    }
+
+    .social-icon{
+        float: left;
+        margin-left: 0;
+        transform: scale(0.9);
+        
+    }
+
+   .project{
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .project-img{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+     .header-wrapper{
+        max-width: 640px;
+    }
+
+    .content-wrapper{
+        max-width: 640px;
+    }
+
+    section{
+        width: 100%;
+        max-width: 640px;
+        margin-bottom: 40px;
+    }
+
+    .profile-img{
+        width: 60%;
+        float: left;
+        margin-right: 30px;
+        margin-bottom: 0;
+    }
+
+    aside{
+        float: left;
+        width: 100%;
+        max-width: 640px;
+        text-align: left;
+    }
+
+    .social-icon{
+        margin-left: 10px;
+        transform: scale(1);
+    }
+
+    .first{
+        margin-left: 0px;
+    }
+
+    .portfolio-container{
+        width: 100%;
+
+    }
+
+    .project{
+        width: 280px;
+        float: left;
+        margin-left: 18px;
+    }
+
+    .no-margin{
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 640px){
+    
+    header{
+        background-color: #fff;
+        width: 100%;
+        height: 155px;
+        border-bottom: 2px solid #ccc;
+    }
+    
+    .header-wrapper{
+        max-width: 640px;
+        text-align: center;
+    }
+    
+    .logo{
+       width: 100%;
+       text-align: center;
+    }
+
+    nav{
+       display: inline-block;
+       float: none;
+       margin-top: 25px;
+    }
+
+   
+    nav ul li{
+        display: inline;
+        margin-left: 60px;
+        border-right: 1px solid #ccc;
+        padding-right: 60px;
+    }
+
+
+    .content-wrapper{
+        max-width: 600px;
+        margin-top: 20px;
+    }
+
+    .profile-img{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .project{
+        margin-left: 0px;
+        width: 100%;
+        height: 300px;
+    }
+
+    .project-img{
+        width: 100%;
+    }
+
+    .project-title{
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
